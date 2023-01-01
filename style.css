@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+}
+div.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+img.logo {
+  width: 50%;}
+  
+section.text {
+  text-align: center;
+  padding: 65px 95px;
+  line-height: 28.8px;
+}
+section h2 {
+  padding-bottom: 32px;
+  font-weight: 700;
+}
+
+section.light {
+  background-color: #faf6f6;
+  color: #666666;
+}
+section.dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+div.welcome {
+  background-color: black;
+  color: #c0b6af;
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 8px;
+  border-radius: 100px 0;
+  outline: 7px double #c0b6af;
+  padding: 21px 25px;
+  outline-offset: 5px;
+  text-align: center;
+  
+}
+div.big {
+  padding: 32px;
+  outline-offset: 10px;
+}
+.first {
+  background-image: url("./images/images\ \(2\).jfif");
+
+  background-image:url("./images/images\ \(6\).jfif")}
+.second {
+  background-image: url("./images/images\ \(3\).jpg");
+}
+.third {
+  background-image: url("./images/serpme.jfif");
+}
+.imgA{
+  height:180px;
+}
+.imgAd{ display: flex;
+justify-content: center;
+align-items: center;}
